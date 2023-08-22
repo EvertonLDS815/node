@@ -1,13 +1,13 @@
 {
-  "name": "forexemple",
+  "name": "agenda",
   "version": "1.0.0",
-  "description": "nada",
+  "description": "uma api que retorna users",
   "main": "database/db.js",
   "engines": {
     "node": "18.x"
   },
   "scripts": {
-    "start": "node index.js",
+    "start": "node index",
     "dev": "nodemon index"
   },
   "author": "Everton Lino",
