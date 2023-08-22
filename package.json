@@ -2,7 +2,7 @@
   "name": "agenda",
   "version": "1.0.0",
   "description": "uma api que retorna users",
-  "main": "database/db.js",
+  "main": "index.js",
   "engines": {
     "node": "18.x"
   },
