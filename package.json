@@ -4,7 +4,7 @@
   "description": "uma api que retorna users",
   "main": "index.js",
   "engines": {
-    "node": "18.x"
+    "node": "18"
   },
   "scripts": {
     "start": "node index",
