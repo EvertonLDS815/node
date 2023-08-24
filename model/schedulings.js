@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const Schema = mongoose.Schema;
 
-const portSchema = new Schema({
+const scheduSchema = new Schema({
   name: {
     type: String,
     require: true,
@@ -21,4 +21,4 @@ const portSchema = new Schema({
   },
 });
 
-module.exports = mongoose.model('Agenda', portSchema);
+module.exports = mongoose.model('Agenda', scheduSchema);
