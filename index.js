@@ -11,7 +11,7 @@ const port = process.env.PORT || 322;
 
 app.use(express.json());
 app.use(cors());
-const Agenda = require('./model/scheduling');
+const Agenda = require('./model/schedulings');
 const Login = require('./model/login');
 
 connetToDb();
